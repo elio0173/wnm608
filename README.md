@@ -1,3 +1,3 @@
 # Elio Hung
 
-- https://eliohung.com
+- http://eliohung.com/aau/wnm608/
