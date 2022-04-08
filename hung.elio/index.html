@@ -2,51 +2,165 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Casa Sesenta</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<title>Elio's Website</title>
 	<link rel="stylesheet" href="lib/css/styleguide.css">
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
-
+	<link rel="stylesheet" href="lib/css/gridsystem.css">
+	<link rel="stylesheet" href="css/storetheme.css">
 </head>
 
 <body>
+	<!-- header>h1+p-->
+	<header class="navbar">
+		<div class="container display-flex">
+			<div class="flex-none">
+				<h1>Elio's Store</h1>
+			</div>
+			<!--nav.nav>ul>li*4>a[href=#article$]>{Link $}-->
+			<div class="flex-stretch"></div>
+			<nav class="flex-none nav">
+				<ul class="container display-flex">
+					<li><a href="#article1">Link 1</a></li>
+					<li><a href="#article2">Link 2</a></li>
+					<li><a href="#article3">Link 3</a></li>
+					<li><a href="#article4">Link 4</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!--.container>article#article$.article*4>h2{Article $}+div.article-body>p*3>lorem20-->
 	<div class="container">
-		<section class="page1">
-			<div>
-				<h1 id="title">Casa Sesenta</h1>
+		<div class="grid gap">
+			<div class="col-xs-4">column 6</div>
+			<div class="col-xs-4">column 6</div>
+			<div class="col-xs-4">column 6</div>
+		</div>
+		<div class="grid">
+			<div class="col-xs-12 col-md-4">column 6</div>
+			<div class="col-xs-12 col-md-4">column 6</div>
+			<div class="col-xs-12 col-md-4">column 6</div>
+		</div>
+		<div class="container">
+			<div class="grid gap xs-small">
+				<div class="col-xs-4">
+					<div class="card soft"><img src="https://m.media-amazon.com/images/I/61ZGDMibthL._AC_SX679_.jpg"
+							alt="" class="media-image"></div>
+				</div>
+				<div class="col-xs-4">
+					<div class="card soft"><img src="https://m.media-amazon.com/images/I/61ZGDMibthL._AC_SX679_.jpg"
+							alt="" class="media-image"></div>
+				</div>
+				<div class="col-xs-4">
+					<div class="card soft"><img src="https://m.media-amazon.com/images/I/61ZGDMibthL._AC_SX679_.jpg"
+							alt="" class="media-image"></div>
+				</div>
+
 			</div>
-			<div id="buttons">
-				<button class="button" id="home" onclick="location.href=''">
-					<a href="">Home</a></button>
-				<br />
-				<button class="button" id="artist" onclick="location.href=''"> <a href="">About</a></button>
-				<br />
-				<button class="button" id="artwork" onclick="location.href=''">
-					<a href="">Rooms</a></button>
-				<br />
-				<button class="button" id="gallery" onclick="location.href=''"><a href="">Book Now</a></button>
-				<br />
-				<button class="button" id="museum" onclick="location.href=''">
-					<a href="">Contact</a></button>
+		</div>
+		<article id="article1" class="article card soft">
+			<h2>Article 1</h2>
+			<div class="article-body">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero, esse quaerat corporis
+					adipisci itaque dolorum magni dolor repellat accusamus nesciunt cumque iure praesentium,
+					necessitatibus maiores, aperiam consequatur odio porro aspernatur in labore eveniet? Nemo voluptate
+					quasi modi molestias et.</p>
+				<p>Molestias, hic. Quasi veritatis eos qui quae necessitatibus aperiam inventore vero quidem libero
+					corporis aliquam quis at, tempora sequi perspiciatis distinctio eligendi exercitationem autem,
+					architecto est dolorem! Eveniet, adipisci. Consectetur maxime accusantium ipsum ipsa eos, nesciunt
+					sequi repudiandae laudantium praesentium!</p>
+				<p>Cum dolore rem autem sunt distinctio provident dolor voluptatibus sequi atque doloribus quod corrupti
+					qui assumenda, labore possimus nesciunt deleniti nulla? Accusantium cupiditate sed recusandae,
+					mollitia excepturi voluptas saepe voluptatem, dolores animi explicabo incidunt dolorem totam quidem
+					assumenda! Adipisci, laborum.</p>
 			</div>
-			<div class="poet">
-				<span>April is the cruellest month,</span>
-				<span>breeding Lilacs out of the dead land,</span>
-				<span>mixing Memory and desire,</span>
-				<span>stirring Dull roots with spring rain.</span>
-				<span> is something that</span>
-				<span> is invisible.</span>
+		</article>
+		<article id="article2" class="article card hard">
+			<h2>Article 2</h2>
+			<div class="article-body">
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore eos maxime sapiente reiciendis
+					ducimus eum iste amet omnis harum non illo laudantium porro officia accusantium in ipsum, sequi
+					tenetur. Mollitia voluptatibus sit totam aperiam magni earum repudiandae harum, atque quas!</p>
+				<p>Illum praesentium minima repudiandae, velit maiores corrupti provident tenetur quisquam nemo debitis
+					est voluptatum? Aliquam, qui. Suscipit illum, quas ratione dignissimos sunt tempora aperiam dolorem
+					nihil quae culpa ipsam, odit repellendus. Eveniet excepturi omnis, nihil eaque ad modi voluptatem
+					quam.</p>
+				<p>Rerum vero error blanditiis provident enim quibusdam nam exercitationem. Ab tempora inventore ullam
+					error laudantium recusandae voluptas iure voluptate obcaecati aspernatur? Est quibusdam debitis quis
+					possimus sit cupiditate repellendus nesciunt quae neque repudiandae, odio placeat quas dignissimos
+					aut laborum deleniti.</p>
 			</div>
-		</section>
-		<div class="bg image1"> </div>
+		</article>
 
+		<article id="article3" class="article">
+			<h2>Article 3</h2>
+			<div class="article-body">
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A fuga quam, blanditiis vitae id beatae
+					debitis facere quis libero officiis odit minima distinctio expedita harum perspiciatis, aspernatur
+					enim est mollitia repudiandae itaque corrupti! Eius aut quas, delectus reiciendis fugiat hic!</p>
+				<p>Nulla, dolor. Corporis commodi quam autem? Velit itaque voluptate esse accusamus illo ipsum
+					voluptatem voluptas, libero, quisquam odit voluptatum aperiam? Quo consequatur sint maxime debitis
+					fuga? Dignissimos hic, excepturi labore tempora voluptatum, iste omnis praesentium esse a quod
+					repudiandae animi?</p>
+				<p>Provident vitae exercitationem voluptates ullam eligendi optio aspernatur, illum tenetur. Suscipit
+					fugiat nostrum illum. Necessitatibus officiis nam aspernatur placeat, expedita magni perferendis
+					amet explicabo minima reprehenderit nemo voluptatem. Labore voluptatum unde dolore fugit ipsum
+					voluptas expedita consequuntur excepturi? Tempora, consectetur!</p>
+			</div>
+		</article>
+		<article id="article4" class="article">
+			<h2>Article 6</h2>
+			<div class="article-body">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore adipisci dolorem nobis inventore
+					commodi obcaecati sunt cum provident ipsam assumenda iusto repellendus aut, eveniet itaque totam
+					expedita. Quidem repudiandae quod nobis ad laboriosam amet ipsum quia cumque voluptas, assumenda
+					suscipit?</p>
+				<p>Rem vitae omnis mollitia obcaecati voluptate tenetur eum qui magnam esse, voluptatum asperiores
+					beatae hic facilis pariatur doloribus earum odio nemo inventore? Obcaecati vitae nemo voluptate
+					exercitationem eligendi impedit fuga magni ducimus, culpa earum dolore voluptatibus dolorem deleniti
+					eius maiores?</p>
+				<p>Facilis, voluptas. Amet accusamus non libero magni. Dolor eos quas nobis suscipit repellendus odio
+					reprehenderit voluptatem nesciunt impedit dignissimos soluta optio nostrum veniam, consequuntur
+					enim, quis sint possimus inventore quaerat cum velit iste commodi error facere! Eligendi doloribus
+					voluptas neque?</p>
+			</div>
+		</article>
 
-		</section>
-	</div>
+		<div class="container">
+			<div class="grid gap">
+				<div class="col-xs-4">column 6</div>
+				<div class="col-xs-4">column 6</div>
+				<div class="col-xs-4">column 6</div>
+			</div>
+			<div class="grid">
+				<div class="col-xs-12 col-md-4">column 6</div>
+				<div class="col-xs-12 col-md-4">column 6</div>
+				<div class="col-xs-12 col-md-4">column 6</div>
+			</div>
+			<div class="container">
+				<div class="grid gap xs-small">
+					<div class="col-xs-4">
+						<div class="card soft"><img src="https://m.media-amazon.com/images/I/61ZGDMibthL._AC_SX679_.jpg"
+								alt="" class="media-image">
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<div class="card soft"><img src="https://m.media-amazon.com/images/I/61ZGDMibthL._AC_SX679_.jpg"
+								alt="" class="media-image">
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<div class="card soft"><img src="https://m.media-amazon.com/images/I/61ZGDMibthL._AC_SX679_.jpg"
+								alt="" class="media-image">
+						</div>
+					</div>
 
+				</div>
+			</div>
+		</div>
 
-	<script src="script.js"></script>
 </body>
 
 </html>
