@@ -1,0 +1,38 @@
+[
+	
+	{
+		"name":"Elio Hung",
+		"type":"student",
+		"email":"weiweiwei922@gmail.com",
+		"classes":[608,617,820]
+	},
+
+		{
+		"name":"Ana Jacinta",
+		"type":"lawyer",
+		"email":"anajacinta@gmail.com",
+		"classes":[608,617,820]
+	},
+
+		{
+		"name":"José Hernández",
+		"type":"dentist",
+		"email":"jose888@gmail.com",
+		"classes":[608,617,820]
+	},
+
+		{
+		"name":"Reiko Shiota",
+		"type":"sales",
+		"email":"321rey@gmail.com",
+		"classes":[608,617,820]
+	},
+
+		{
+		"name":"Irene Hu",
+		"type":"police",
+		"email":"irene0525@gmail.com",
+		"classes":[608,617,820]
+	}
+
+]
