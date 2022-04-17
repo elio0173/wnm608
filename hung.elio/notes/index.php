@@ -7,170 +7,179 @@
 </head>
 <body>
     <?php 
-
-
     echo "<div>Hello World</div>"; 
     echo "<div>Goodbye World</div>";
 
-    // Variables
+    //Variables
     $a = 5;
-
     echo $a;
 
-
-    // String Interpolation
+    //String Interpolation
     echo "<div>I have $a things</div>";
-    echo '<div>I have $a things</div>';
+    echo '<div>I have $a things</div>'; //simple string
 
 
-    // Number
-    // Interger
+    //Number
+    //Integer
     $b = 15;
-    // Float
-    $b = 0.576;
-
+    //Float
+    $b = 0.565;
     $b = 10;
 
-    // String
+    //String
     $name = "Yerguy2";
 
-    // Boolean
+    //Boolean
     $isOn = true;
 
+    //Math
 
+    echo 5 - 4 * 2;
 
-    // Math
-    // PEMDAS
-    echo (5 - 4) * 2;
-
-    // Concatenation
-    echo "<div> b + a" . " =c</div>";
-    echo "<div> $b + $a" . " = ($a+$b)</div>";
-    echo "<div> $b + $a =".($a+$b)."</div>";
-
-
-
-
-
-
-
-
-
+    //Concatenation
+    //period is concatenating together
+    echo "<div>b + a" . " = c</div>";
+    echo "<div>$b + $a = ".($a + $b)."</div>";
     ?>
+
+
 
     <hr>
     <div>This is my name</div>
     <div>
-    <?php
 
-    $firstname = "Erh Chien";
-    $lastname = "Chen";
-    $fullname = "$firstname $lastname";
+    <?php 
+
+    $firstname = Elio;
+    $lastname = Hung;
+    $fullname = "<div>$firstname " . "$lastname</div>";
 
     echo $fullname;
+    ?>
 
+
+
+
+
+    <hr>
+    <?php
+
+ 
+
+    echo "<div>My name is {$_GET['name']}</div>";
+    
 
     ?>
 
-    </div>
+
+
+
+
 
     <hr>
     <?php 
 
-    // Superglobal
-    // ?name=HAHAHA
-    echo "<a href='?name=HAHAHA'>visit</a><br>";
-    echo "<div> My name is {$_GET['name']} </div>";
+    //Array 
+    $colors = array("red","green","blue");
 
-    // ?name=HAHAHA&type=h1
-    echo "<a href='?name=HAHAHA&type=h1'>visit</a><br>";
-    echo "<{$_GET['type']}> My name is {$_GET['name']} </{$_GET['type']}>";
-
-    ?>
-    <hr>
-    <?php
-
-    // Array
-    $colors = array("red", "green" , "blue");
-
-    echo $colors[0];
+    echo $colors[2];
 
     echo "
         <br>$colors[0]
         <br>$colors[1]
         <br>$colors[2]
     ";
-
     echo count($colors);
-
     ?>
 
+
+    <div>The equal sign says we're going into php for only one variable</div>
+    
     <div style="color:<?= $colors[1] ?>">
         This text is green
     </div>
 
-    <hr>
-    <?php  
+    <div>Semicolons only need to be between statements. If you only have one thing or you're at the end of a block, you don't need it</div>
 
-    // Associative Array
-    $colorAssociative = [
+
+
+
+
+
+
+    <hr>
+    <?php 
+
+    //Associative Array
+    //brackets are array shorthand
+    
+    $colorsAssociative = [
         "red" => "#f00",
         "green" => "#0f0",
-        "blue" => "#00f",
+        "blue" => "#00f"
     ];
 
-    echo $colorAssociative['green'];
-
+    echo $colorsAssociative['green'];
     ?>
+
+
+
+
+
 
     <hr>
     <?php
 
-    // Casting
+    //Casting
     $c = "$a";
     $d = $c*1;
 
-    echo $d;
+    $colorsObject = (object)$colorsAssociative;
 
-    $colorsObject = (object)$colorAssociative;
-
-    echo $colors;
-    // echo $colorsObject;
-    
+    //echo $colorsObject;
 
     echo "<hr>";
 
-    // Array Index Notation
+    //Array Index Notation
     echo $colors[0]."<br>";
-    echo $colorAssociative['red']."<br>";
-    echo $colorAssociative[$colors[2]]."<br>";
+    echo $colorsAssociative['red']."<br>";
+    echo $colorsAssociative[$colors[0]]."<br>";
 
-
-    // Object Property Notation
+    //Object Property Notation
+    //dash arrow selects
     echo $colorsObject->red."<br>";
-    echo $colorsObject->{$colors[2]}."<br>";
+    echo $colorsObject->{$colors[0]}."<br>";
     ?>
 
+
+
+
+
     <hr>
-    <?php  
+    <?php 
 
     print_r($colors);
     echo "<hr>";
-    print_r($colorAssociative);
+    print_r($colorsAssociative);
     echo "<hr>";
     print_r($colorsObject);
-    echo"<pre>",print_r($colorsObject),"</pre>";
+    echo "<pre>",print_r($colorsObject),"</pre>";
 
-    // Function
+    //Function
+    //$v is an arbitrary name we've assigned
     function print_p($v) {
-        echo"<pre>",print_r($v),"</pre>";
+        echo "<pre>",print_r($v),"</pre>";
     }
-    print_p($_GET);
-    
 
+    print_p($GLOBALS);
+    print_p($_GET);
 
     ?>
 
 
+
+
+
+
 </body>
-</html>
+</html>                 
