@@ -57,7 +57,7 @@ function showUserPage($user) {
 $id = $_GET['id'];
 $addoredit = $id == "new" ? "Add" : "Edit";
 $createorupdate = $id == "new" ? "create" : "update";
-$classes = implode(", ", $user->classes);
+$classes = implode(", ", $user -> classes);
 
 
  $display = <<< HTML
