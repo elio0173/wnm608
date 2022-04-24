@@ -10,8 +10,9 @@
     <nav class="nav nav-flex flex-none">
 <ul>
     <li><a href="index.php">Home</a></li>
-    <li><a href="product_list.php">Shop All</a></li>
-    <li><a href="#">Collection</a></li>
+    <li><a href="product_list.php">Shop</a></li>
+    <li><a href="#">About</a></li>
+      <li><a href="product_cart.php">Cart</a></li>
 </ul>
     </dnav>
 </div>

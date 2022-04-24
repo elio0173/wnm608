@@ -12,7 +12,7 @@
     </div>
     <div class="container" id="typography">
         <div class="card soft" id="paragraphs">
-            <h3 id="title">WE LOVE VINTAGE TOYS!</h3>
+            <h3 id="title">WE LOVE TOYS!</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae eligendi quaerat sint autem eveniet
                 facere, odio quibusdam doloribus suscipit odit aut voluptatum assumenda illum nihil qui natus sapiente
                 maiores enim?</p>

@@ -10,7 +10,6 @@
 <?php include "Parts/navbar.php"; ?>
 
 	<div class="container">
-		<div class="card soft">
 			<h2>Product List</h2>
 			
 
@@ -31,13 +30,12 @@
                 "
             );
 
-            echo "<div class='grid gap'>",array_reduce($result,'productListTemplate'),"</div>";
+            echo "<div class='productlist grid gap'>",array_reduce($result,'productListTemplate'),"</div>";
 
 
             ?>
 
 
-		</div>
 		
 	</div>
 </body>
