@@ -12,7 +12,7 @@ $image_elements = array_reduce($images, function($r,$o){
     return $r."<img src='styleguide/images/$o'>";
 });
 
-//print_p($product);
+//print_p($_SESSION);
 
 
         ?><!DOCTYPE html>
@@ -32,7 +32,7 @@ $image_elements = array_reduce($images, function($r,$o){
 
     <div class="container">
       <div class="grid gap">
-          <div class=".col-xl-12.col-md-12" style="width: 450px;"> <!-- change that i made -->
+          <div class="col-xs-12 col-md-7"> <!-- change that i made -->
               <div class="card soft">
             
                   <div class="images-main">      
@@ -44,8 +44,12 @@ $image_elements = array_reduce($images, function($r,$o){
                     </div>
               </div>
           </div>
-          <div class=".col-xl-12.col-md-5" style="width: 330px;"> <!-- change that i made -->
-              <div class="card soft flat">
+          <div class="col-xs-12 col-md-5"> <!-- change that i made -->
+              <form class="card soft flat" method="post" action="cart_actions.php?action=add-to-cart">
+
+                <input type="hidden" name="product-id" value="<?= $product->id ?>">
+
+
                  <div class="card-section">
                     <p><?= $product->category ?></p>
                   <h3 class="product-name"><?= $product->name ?></h3>
@@ -55,8 +59,8 @@ $image_elements = array_reduce($images, function($r,$o){
 
                 <div class="card-section">
                     <label for="product-amount" class="form-label">Amount</label>
-                    <div class="form-select" id="product-amount">
-                     <select>
+                    <div class="form-select">
+                        <select id="product-amount" name="product-amount">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -73,11 +77,11 @@ $image_elements = array_reduce($images, function($r,$o){
 
 
                    <div class="card-section">
-                       <a href="product_added_to_cart.php?id=<?= $product->id ?>" class="form-button">Add To Cart</a>
+                       <input type="submit" class="form-button" value="Add To Cart">
                    </div>
 
 
-              </div>
+              </form>
           </div>
   
       </div> 

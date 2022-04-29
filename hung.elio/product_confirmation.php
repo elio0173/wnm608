@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php 
+
+include_once "lib/php/functions.php";
+
+resetCart();
+
+?>    <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">

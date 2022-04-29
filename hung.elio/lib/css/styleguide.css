@@ -63,7 +63,7 @@ p{
   /* LAYOUT CLASSES */
 
 .container{
-  max-width: 800px;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -280,6 +280,7 @@ content: '/';
 .card.soft{
   border-radius: 0.5em;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-right-width: thick;
 }
 .card.hard{
   border-radius: 0.2em;
@@ -315,7 +316,7 @@ padding-bottom: 0.1rem;
   margin-bottom: 1em;
   padding: 1em;
   border:  solid 1px;
-
+  border-right-width: thick;
   overflow: hidden;
   position: relative;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -394,6 +395,30 @@ button:hover{
 .form-control{
   margin: 1em 0;
 }
+
+.form-button.inline{
+  width: initial;
+  height: 2em;
+  border: none;
+  background-color: transparent;
+}
+
+.form-button.inline:hover{
+ text-decoration: none;
+  color: transparent;
+  background-color: transparent;
+  color: var(--color-blue);
+  border: none;
+  box-shadow: none;
+}
+
+.form-button.inline>select {
+   text-decoration: none;
+  color: transparent;
+  background-color: transparent;
+  border: none;
+}
+
 .form-select>select,
 .form-item,
 .form-button,
