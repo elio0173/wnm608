@@ -50,9 +50,9 @@ body{
 }
 
 .product.figure img {
-    height: 100%;
     object-fit: contain;
     max-width: 70%;
+    height: 11rem;
 }
 
 .productlist a {
@@ -69,7 +69,7 @@ body{
 }
 
 .figure.product img:hover{
-    transform: scale(1.1);
+    transform: scale(1.06);
     transition: all 0.5s;
 }
 
