@@ -12,11 +12,10 @@ include_once "lib/php/functions.php";
 <body>
 <?php include"Parts/navbar.php"; ?>
 <div class="view-window"
-        style="background-image: url('https://media0.giphy.com/media/USE3Aegr87SiWNIODh/200.gif');">
-    </div>
+        style="background-image: url('http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-51.gif'); height: 27rem;"></div>
     <div class="container" id="typography">
-        <div class="card soft" id="paragraphs">
-            <h2 id="title">WELCOME TO MR.JUGUETE!</h2>
+        
+            <h3 id="title">WE LOVE TOYS!</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae eligendi quaerat sint autem eveniet
                 facere, odio quibusdam doloribus suscipit odit aut voluptatum assumenda illum nihil qui natus sapiente
                 maiores enim?</p>
@@ -27,7 +26,7 @@ include_once "lib/php/functions.php";
                 animi laboriosam reprehenderit eum aliquid perferendis veritatis libero laborum beatae aliquam dolores.
                 Voluptas deleniti veritatis unde.</p>
                 
-        </div>
+        
     </div>
 
 </body>

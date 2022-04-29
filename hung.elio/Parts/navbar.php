@@ -15,7 +15,7 @@ include_once "lib/php/functions.php";
 <ul>
     <li><a href="index.php">Home</a></li>
     <li><a href="product_list.php">Shop</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="about.php">About</a></li>
       <li><a href="product_cart.php">
       <span>Cart</span>
       <span class="badge"><?= makeCartBadge(); ?></span>

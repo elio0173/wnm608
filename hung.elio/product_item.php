@@ -39,7 +39,6 @@ $image_elements = array_reduce($images, function($r,$o){
                     <img src="styleguide/images/<?= $product->thumbnail ?>">
                     </div>
                     <div class="images-thumbs">
-                       <?= $image_elements ?>
                        <p><?= $product->description ?></p>
                     </div>
               </div>
