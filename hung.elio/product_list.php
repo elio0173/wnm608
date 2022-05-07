@@ -54,7 +54,7 @@ include_once "Parts/templates.php";
                     <option value="1">Newest</option>
                     <option value="2">Oldest</option>
                     <option value="3">Lowest Price</option>
-                    <option value="4">highest Price</option>
+                    <option value="4">Highest Price</option>
                      </select>
                     </div>
                     </div>
