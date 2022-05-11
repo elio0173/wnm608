@@ -16,7 +16,7 @@ include_once "lib/php/functions.php";
     </div>
     <div class="container" id="typography">
         <div class="card soft" id="paragraphs">
-            <h2 id="title">WELCOME TO MR.JUGUETE!</h2>
+            <h2 id="title">WELCOME TO MR. JUGUETE!</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae eligendi quaerat sint autem eveniet
                 facere, odio quibusdam doloribus suscipit odit aut voluptatum assumenda illum nihil qui natus sapiente
                 maiores enim?</p>

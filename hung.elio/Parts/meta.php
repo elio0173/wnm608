@@ -8,3 +8,4 @@
     <link rel="stylesheet" href="css/storetheme.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
