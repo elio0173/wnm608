@@ -1,6 +1,7 @@
 .grid{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    align-items: end;
 }
 .grid.gap{
     --grid-gap:1em;

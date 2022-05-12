@@ -1,6 +1,7 @@
 <?php 
 
 include_once "lib/php/functions.php";
+include_once "Parts/templates.php";
 
 ?>    <!DOCTYPE html>
 <html lang="en">
@@ -28,6 +29,13 @@ include_once "lib/php/functions.php";
                 Voluptas deleniti veritatis unde.</p>
                 
         </div>
+    </div>
+
+    <div class="container">
+        <h3>Trending Toys</h3>
+        <?php recommendedCategory("monster");?>
+        <h3>Classic Movies</h3>
+        <?php recommendedCategory("movies");?>
     </div>
 
 </body>
