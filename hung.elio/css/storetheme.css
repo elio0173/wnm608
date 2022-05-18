@@ -83,7 +83,7 @@ body{
 .images-main img{
 
     width: 100%;
-    height: 40vh;
+    height: 11em;
     object-fit: contain;
 
 }

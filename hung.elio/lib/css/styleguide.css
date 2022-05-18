@@ -245,6 +245,7 @@ content: '/';
 	color: var(--color-white);
 	line-height: var(--header-height);
   font-weight: bold; 
+  margin-bottom: 0;
 }
 
 
@@ -293,6 +294,10 @@ content: '/';
 .card.medium{
   background-color: var(--color-neutral-medium);
   border-radius: 0.5em;
+}
+
+[class*='col-']>.card {
+  height: 100%;
 }
 .card.flat{
 padding-top: 0.1rem;

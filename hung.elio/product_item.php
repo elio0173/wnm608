@@ -86,7 +86,7 @@ $image_elements = array_reduce($images, function($r,$o){
   
       </div> 
 
-   <h3>Recommended Products</h3>
+   <h3 style="margin-top: 2em; margin-bottom: -0.2em;">Recommended Products</h3>
    <?php
     recommendedSimilar($product->category,$product->id);
    ?>

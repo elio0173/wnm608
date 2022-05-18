@@ -32,9 +32,9 @@ include_once "Parts/templates.php";
     </div>
 
     <div class="container">
-        <h3>Trending Toys</h3>
+        <h3 style="margin-top: 1.5em; margin-bottom: -0.2em;">Trending Toys</h3>
         <?php recommendedCategory("monster");?>
-        <h3>Classic Movies</h3>
+        <h3 style="margin-top: 2em; margin-bottom: -0.2em;">Classic Movies</h3>
         <?php recommendedCategory("movies");?>
     </div>
 
