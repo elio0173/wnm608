@@ -72,7 +72,7 @@ p{
   position: absolute;
   width: 2em;
   position: absolute;
-  padding-top: 0.1em;
+  padding-top: 0.2em;
 }
 
 .display-flex{display: flex;}
@@ -93,6 +93,7 @@ p{
 
 
 .flex-column {flex-direction: column;}
+.flex-wrap {flex-wrap: wrap;}
 
 
 /*SMALL CLASSES*/
