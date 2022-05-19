@@ -55,7 +55,7 @@ $cart_items = getCartItems();
 	} else {
 	?>
 
-		<p>No items in cart</p>
+		<p style="font-size: 1em">No items in cart</p>
 
 		<h3>You may like these...</h3>
 		 <?php recommendedAnything();?>
