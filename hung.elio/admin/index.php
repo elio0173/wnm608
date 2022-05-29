@@ -142,11 +142,11 @@ $thumbnail = array_reduce(explode(",",$o->thumbnail),function($r,$o){return $r."
         </div>
         <div class="form-control">
             <label class="form-label" for="product-price">Price</label >
-          <input type="Number" min="0" max="10000" step="0.01" value="$o->price" class="form-input" name="product-price" id="product-price" placeholder="Enter the Product Name">
+          <input type="Number" min="0" max="10000" step="0.01" value="$o->price" class="form-input" name="product-price" id="product-price" placeholder="Enter the Product Price">
         </div>
         <div class="form-control">
             <label class="form-label" for="product-quantity">Quantity</label >
-          <input type="Number" min="0" max="10000" step="1" value="$o->quantity" class="form-input" name="product-quantity" id="product-quantity" placeholder="Enter the Product Name">
+          <input type="Number" min="0" max="10000" step="1" value="$o->quantity" class="form-input" name="product-quantity" id="product-quantity" placeholder="Enter the Product Quantity">
         </div>
         <div class="form-control">
             <label class="form-label" for="product-category">Category</label >
